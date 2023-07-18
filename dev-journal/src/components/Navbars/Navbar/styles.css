@@ -1,0 +1,185 @@
+/* MOBILE DEVICES */
+@media only screen and (max-width: 480px) {
+
+}
+/* TABLETS */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+}
+/* SMALL SCREENS / LAPTOPS */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .navbar-con{
+        /* border: 2px solid red; */
+        float: left;
+        width: 100vw;
+        /* height: 8vh; */
+        background-color: black;
+        color: white;
+    }
+    .nav-title-con{
+        float: left;
+        width: 30%;
+        /* border: 2px solid red; */
+        /* height: 8vh; */
+        line-height: 1;
+        font-size: 16px;
+    }
+    #nav-title{
+    
+    }    
+    .nav-links-con{
+        float: left;
+        /* border: 2px solid red; */
+        width: 40%;
+        line-height: 4.8;
+        /* text-align: left; */
+    }
+    #nav-link1{
+        margin-right: 2.5%;
+        margin-left: 5%;
+        color: white;
+        text-decoration: none;
+    }
+    #nav-link2{
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        color: white;
+        text-decoration: none;
+    } 
+    #nav-link3{
+        margin-left: 2.5%;
+        margin-right: 5%;
+        color: white;
+        text-decoration: none;
+    }
+    .nav-icons-con{
+        float: left;
+        width: 30%;
+        /* border: 2px solid red; */
+    }
+    #insta, #twitter, #account{
+        width: 15%;
+        /* border: 2px solid red; */
+        font-size: 30px;
+        margin-top: 2.5vh;
+        /* float: left; */
+    }
+}
+/* DESKTOPS / LARGE SCREENS */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    .navbar-con{
+        /* border: 2px solid red; */
+        float: left;
+        width: 100vw;
+        /* height: 8vh; */
+        background-color: black;
+        color: white;
+    }
+    .nav-title-con{
+        float: left;
+        width: 30%;
+        /* border: 2px solid red; */
+        /* height: 8vh; */
+        line-height: 1;
+        font-size: 16px;
+    }
+    #nav-title{
+    
+    }    
+    .nav-links-con{
+        float: left;
+        /* border: 2px solid red; */
+        width: 40%;
+        line-height: 4.8;
+        /* text-align: left; */
+    }
+    #nav-link1{
+        margin-right: 2.5%;
+        margin-left: 5%;
+        color: white;
+        text-decoration: none;
+    }
+    #nav-link2{
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        color: white;
+        text-decoration: none;
+    } 
+    #nav-link3{
+        margin-left: 2.5%;
+        margin-right: 5%;
+        color: white;
+        text-decoration: none;
+    }
+    .nav-icons-con{
+        float: left;
+        width: 30%;
+        /* border: 2px solid red; */
+    }
+    #insta, #twitter, #account{
+        width: 15%;
+        /* border: 2px solid red; */
+        font-size: 30px;
+        margin-top: 2.5vh;
+        /* float: left; */
+    }
+}
+/* EXTRA LARGE SCREENS / TV */
+@media only screen and (min-width: 1201px) {
+    .navbar-con{
+        /* border: 2px solid red; */
+        float: left;
+        width: 100vw;
+        /* height: 8vh; */
+        background-color: black;
+        color: white;
+    }
+    .nav-title-con{
+        float: left;
+        width: 30%;
+        /* border: 2px solid red; */
+        /* height: 8vh; */
+        line-height: 1;
+        font-size: 16px;
+    }
+    #nav-title{
+    
+    }    
+    .nav-links-con{
+        float: left;
+        /* border: 2px solid red; */
+        width: 40%;
+        line-height: 4.8;
+        /* text-align: left; */
+    }
+    #nav-link1{
+        margin-right: 2.5%;
+        margin-left: 5%;
+        color: white;
+        text-decoration: none;
+    }
+    #nav-link2{
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        color: white;
+        text-decoration: none;
+    } 
+    #nav-link3{
+        margin-left: 2.5%;
+        margin-right: 5%;
+        color: white;
+        text-decoration: none;
+    }
+    .nav-icons-con{
+        float: left;
+        width: 30%;
+        /* border: 2px solid red; */
+    }
+    #insta, #twitter, #account{
+        width: 15%;
+        /* border: 2px solid red; */
+        font-size: 30px;
+        margin-top: 2.5vh;
+        /* float: left; */
+    }
+}

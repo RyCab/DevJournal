@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  /* border: 2px solid red; */
+  width: 100vw;
+  margin: 0%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  float: left;
+  background-image: url('./images/background.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100vh;
+  position: fixed;
+}
