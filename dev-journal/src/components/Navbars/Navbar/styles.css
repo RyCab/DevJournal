@@ -1,3 +1,31 @@
+#nav-link1:hover{
+    background: linear-gradient(rgba(255,119,244,255), 80%,rgba(39,202,252,255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#nav-link2:hover{
+    background: linear-gradient(rgba(255,119,244,255), 80%,rgba(39,202,252,255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#nav-link3:hover{
+    background: linear-gradient(rgba(255,119,244,255), 80%,rgba(39,202,252,255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#insta:hover{
+    cursor: pointer;
+}
+#twitter:hover{
+    cursor: pointer;
+} 
+#account:hover{
+    cursor: pointer;
+}
+.navbar-con{
+  /* border-bottom: 1px solid white; */
+   
+}
 /* MOBILE DEVICES */
 @media only screen and (max-width: 480px) {
 
@@ -13,19 +41,24 @@
         float: left;
         width: 100vw;
         /* height: 8vh; */
-        background-color: black;
+        background-color: rgba(0,0,11,255);
         color: white;
+        /* position: absolute; */
+        z-index: 3;
+       
     }
     .nav-title-con{
         float: left;
-        width: 30%;
+        width: 20%;
+        margin-left: 10%;
         /* border: 2px solid red; */
         /* height: 8vh; */
         line-height: 1;
         font-size: 16px;
+        text-align: left;
     }
     #nav-title{
-    
+     
     }    
     .nav-links-con{
         float: left;
@@ -40,25 +73,36 @@
         color: white;
         text-decoration: none;
     }
+    #nav-link1:hover{
+       color: aqua;
+    }
     #nav-link2{
         margin-left: 2.5%;
         margin-right: 2.5%;
         color: white;
         text-decoration: none;
     } 
+    #nav-link2:hover{
+        color: aqua;
+    }
     #nav-link3{
         margin-left: 2.5%;
         margin-right: 5%;
         color: white;
         text-decoration: none;
     }
+    #nav-link3:hover{
+        color: aqua;
+    }
     .nav-icons-con{
         float: left;
-        width: 30%;
+        width: 20%;
         /* border: 2px solid red; */
+        text-align: right;
+        height: 8vh;
     }
     #insta, #twitter, #account{
-        width: 15%;
+        width: 20%;
         /* border: 2px solid red; */
         font-size: 30px;
         margin-top: 2.5vh;
@@ -69,22 +113,26 @@
 @media only screen and (min-width: 1025px) and (max-width: 1200px) {
     .navbar-con{
         /* border: 2px solid red; */
+        /* position: absolute; */
+        z-index: 3;
         float: left;
         width: 100vw;
         /* height: 8vh; */
-        background-color: black;
+        background-color: rgba(0,0,11,255);
         color: white;
     }
     .nav-title-con{
         float: left;
-        width: 30%;
+        width: 20%;
         /* border: 2px solid red; */
         /* height: 8vh; */
+        margin-left: 10%;
         line-height: 1;
         font-size: 16px;
+        text-align: left;
     }
     #nav-title{
-    
+  
     }    
     .nav-links-con{
         float: left;
@@ -99,6 +147,8 @@
         color: white;
         text-decoration: none;
     }
+
+
     #nav-link2{
         margin-left: 2.5%;
         margin-right: 2.5%;
@@ -113,11 +163,13 @@
     }
     .nav-icons-con{
         float: left;
-        width: 30%;
+        width: 20%;
+        text-align: right;
         /* border: 2px solid red; */
+        
     }
     #insta, #twitter, #account{
-        width: 15%;
+        width: 20%;
         /* border: 2px solid red; */
         font-size: 30px;
         margin-top: 2.5vh;
@@ -131,16 +183,20 @@
         float: left;
         width: 100vw;
         /* height: 8vh; */
-        background-color: black;
+        background-color: rgba(0,0,11,255);
         color: white;
+        /* position: absolute; */
+        z-index: 3;
     }
     .nav-title-con{
         float: left;
-        width: 30%;
+        width: 20%;
+        margin-left: 10%;
         /* border: 2px solid red; */
         /* height: 8vh; */
         line-height: 1;
         font-size: 16px;
+        text-align: left;
     }
     #nav-title{
     
@@ -172,14 +228,16 @@
     }
     .nav-icons-con{
         float: left;
-        width: 30%;
+        width: 20%;
+        text-align: right;
         /* border: 2px solid red; */
     }
     #insta, #twitter, #account{
-        width: 15%;
+        width: 20%;
         /* border: 2px solid red; */
         font-size: 30px;
         margin-top: 2.5vh;
         /* float: left; */
+        
     }
 }

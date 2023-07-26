@@ -1,0 +1,127 @@
+.adminPanel-con{
+    color:white;
+    float: left;
+    margin-left: 5%;
+    width: 90%;
+    height: 100vh;
+    /* border: 2px solid red; */
+    /* height: 100vh; */
+    /* position: absolute;
+    top: 8%; */
+    background-color: rgba(0,0,11,255);
+    /* background-color: rgb(7, 7, 23); */
+    
+}
+#admin-pageTitle{
+    float: left;
+    width: 80%;
+    /* border: 2px solid red; */
+    /* margin-left: 10%; */
+    text-align: left;
+    font-size: 14px;
+    margin-top: 6vh;
+}
+#admin-pageTitle-color{
+    display: inline;
+    color: aqua;
+}
+.admin-btn-group{
+    float: left;
+    width: 70%;
+    /* border: 2px solid red; */
+    margin-top: 2vh;
+    text-align: right;
+}
+#admin-btn{
+    /* border: 2px solid red; */
+    width: 10vw;
+    margin-left: 1vw;
+    border-radius: 2px;
+    height: 30px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#search-icon{
+    /* border: 2px solid red; */
+    margin-bottom: -11px;
+    font-size: 30px;
+    /* float: left; */
+}
+#admin-search{
+    /* float: left; */
+    margin-top: -1.5px;
+    margin-left: 1vw;;
+    border-radius: 20px;
+    width: 20vw;
+    height: 25px;
+}
+#admin-title{
+    margin-top: 2vh;
+    text-align: left;
+    /* margin-left: 10%; */
+    float: left;
+    width: 30%;
+    /* border: 2px solid red; */
+}
+.table-con{
+    /* border: 1px solid white; */
+    height: 40vh;
+    overflow: auto;
+    width: 100%;
+    /* margin-left: 10%; */
+    border-radius: 20px;
+    background-color: rgba(44, 49, 50, 0.339);
+    margin-top: 5vh;
+    border:1px solid white;
+}
+#admin-table{
+    /* float: left; */
+    width: 100%;
+    /* margin-left: 10%; */
+    /* border:1px solid white; */
+    border-radius: 20px;
+    border-collapse: collapse;
+}
+#admin-table-head{
+    border-radius: 20px;
+}
+thead{
+    /* border: 2px solid red; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: sticky;
+    top: 0;
+    background-color: rgba(0,0,11,255);
+}
+th{
+    width: 25%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* border-radius: 20px; */
+}
+table tr{
+    border-radius: 20px;
+}
+td{
+    /* border: 2px solid red; */
+    /* border-bottom: 2px solid white; */
+}
+.td-id{
+    /* border: 2px solid red; */
+    width: 50%;
+    margin-left: 25%;
+    float: left;
+    line-height: 3;
+    /* overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; */
+}
+
+.adminCard-con{
+    border: 2px solid red;
+    /* float: left; */
+    width: 100%;
+    
+}
+
+  

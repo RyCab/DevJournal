@@ -1,0 +1,90 @@
+.subscribe-con{
+    width: 100%;
+    height: 55%;
+    /* border: 2px solid red; */
+    float: left;
+    position: relative;
+    background-color: rgba(12,5,17,255);
+}
+#env-image{
+    width: 500px;
+    border-radius: 50%;
+    /* float: left; */
+    margin-top: -4vh;
+    /* margin-left: 50%; */
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: scaleX(-1);
+}
+#subscribe-header{
+    /* float: left; */
+    width: 50%;
+    /* border: 2px solid red; */
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 5vh;
+    position: absolute;
+    z-index: 2;
+    background: linear-gradient(rgba(39,202,252,255), 70%,rgba(255,119,244,255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.form-con{
+    float: left;
+    width: 40%;
+    text-align: left;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+.name-con{
+    float: left;
+    /* border: 2px solid blue; */
+    width: 50%;
+    
+}
+.lastname-con{
+    float: left;
+    /* border: 2px solid blue; */
+    width: 50%;
+    
+}
+.email-con{
+    float: left;
+    /* border: 2px solid blue; */
+    width: 100%;
+    margin-bottom: 2vh;
+}
+.desc-con{
+    float: left;
+    /* border: 2px solid blue; */
+    width: 100%;
+    margin-bottom: 2vh;
+}
+#formName-label{
+    /* margin-left: 0.5vw; */
+}
+#form-name{
+    width: 90%;
+    margin-bottom: 2vh;
+    height: 25px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 1vh;
+}
+#form-email{
+    width: 95%;
+    height: 25px;
+    margin-top: 1vh;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#form-desc{
+    width: 95%;
+    height: 10vh;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 1vh;
+}

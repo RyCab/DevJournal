@@ -1,0 +1,26 @@
+/* 
+
+////ADMIN PAGE
+
+*/
+.aPage-con{
+    /* border: 2px solid green; */
+    float: left;
+    width: 100%;
+}
+.aSide-con{
+    /* border: 2px solid blue; */
+    /* position: fixed;
+    left: 0; */
+    float: left;
+    width: 15%;
+}
+.aContent-con{
+    /* border: 2px solid red; */
+    /* position: fixed;
+    left: 0%; */
+    float: left;
+    width: 84%;
+    height: 100vh;
+    overflow: auto;
+}

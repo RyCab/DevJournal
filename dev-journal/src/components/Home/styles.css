@@ -1,0 +1,208 @@
+.homePage-con{
+    /* border: 2px solid red; */
+    width: 100vw;
+    /* margin-left: 5%; */
+    height: 100vh;
+    float: left;
+    background-color:rgba(0,0,11,255);
+    text-align: center;
+    /* overflow: auto;  */
+    overflow-y: auto;
+    overflow-x: hidden;
+    color: white;
+    position: absolute;
+    top:8.2%;
+}
+.home-con-left{
+    /* border: 2px solid red; */
+    float: left;
+    width: 50%;
+    height: 50vh;
+    position: absolute;
+    z-index: 2;
+}
+.home-con-right{
+    /* border: 2px solid blue; */
+    float: left;
+    width: 50%;
+    background-image: url('../../images/homebg2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 50vh;  
+    position: absolute;
+    left: 40%;
+    top: 3%;
+    /* opacity: 80%; */
+}
+.homePage-content{
+
+    /* height: 70vh;  */
+    height: 60vh; 
+    width: 80%;
+    float: left;
+    text-align: center;
+    margin-left: 10%;
+    /* border: 2px solid white; */
+    opacity: 70%;
+}
+#homePage-title{
+    /* border: 2px solid red; */
+    padding-top: 3vh;
+    width: 100%;
+    float: left;
+    text-align: left;
+    /* margin-left: 10%; */
+    margin-top: 10vh;
+    /* font-size: 40px; */
+    white-space: nowrap;
+    background: linear-gradient(rgba(255,119,244,255), 80%,rgba(39,202,252,255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#homePage-desc{
+    /* border: 2px solid red; */
+    width: 90%;
+    text-align: left;
+    /* margin-left: 10%; */
+    font-size: 20px;
+    /* letter-spacing:0.5px; */
+    
+}
+.home-btn-con{
+    float: left;
+    width: 100%;
+    text-align: left;
+    /* margin-left: 10%; */
+    background: none;
+    /* border: 2px solid red; */
+    margin-left: -1%;
+    
+}
+#homePage-btn{
+    width: 30vw;
+    height: 4vh;
+    text-align: left;
+    font-size: 20px;
+    background: linear-gradient(rgba(39,202,252,255), 60%,rgba(255,119,244,255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: none;
+    /* background: none;
+    color: lightblue; */
+}
+#homePage-btn:hover{
+    cursor: pointer;
+}
+
+
+/* 
+    //
+    // SERVICES
+    //
+*/
+.feature-con{
+    float: left;
+    width: 100%;
+    height: 100%;
+    /* margin-top: -20vw; */
+    /* height: 100vw; */
+    /* margin-left: 20%; */
+    /* border: 2px solid red; */
+    /* background-color: blue; */
+    background-image: linear-gradient(rgba(0,0,11,255), rgba(12,5,17,255));
+    /* margin-bottom: 10vh; */
+}
+
+.feature-title-con{
+    float: left;
+    width: 80%;
+    margin-left: 10%;
+    text-align: left;
+    margin-bottom: 3vh;
+    margin-top: -5vh;
+}
+#feature-title{
+    /* border: 2px solid red; */
+    background: linear-gradient(rgba(255,119,244,255), 50%,rgba(39,202,252,255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.features-content-con{
+    float: left;
+    width: 80%;
+    margin-left: 10%;
+    text-align: left;
+    /* border: 2px solid red; */
+}
+.feature-content-card{
+    /* border: 2px solid green; */
+    float: left;
+    width: 33.3%;
+    height: 30vh;
+    /* margin-right: 1.6%; */
+    /* margin-left: 1.6%; */
+    margin-bottom: 3vh;
+    border-radius: 20px;
+    /* background-color:rgba(0,0,11,255); */
+}
+#feature-content-title{
+    width: 100%;
+    float: left;
+    color: rgba(39,202,252,255);
+    background: linear-gradient(to right, rgba(39,202,252,255), 30%, rgba(255,119,244,255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+        /* border: 2px solid red; */
+    /* margin-left: 10%; */
+}
+
+.feature-icon-con{
+    /* border: 2px solid red; */
+    width: 100%;
+    text-align: left;
+    /* float: left; */
+}
+#feature-icon{
+    /* float: left; */
+    /* border: 2px solid red; */
+    /* background-color: lightblue; */
+    /* border-radius: 50%; */
+    font-size: 50px;
+    margin-top: 2vh;
+    /* margin-left: 10%; */
+}
+#feature-desc{
+    width: 90%;
+    /* margin-left: 10%; */
+    margin-bottom: 2vh;
+}
+
+
+/* MOBILE DEVICES */
+@media only screen and (max-width: 480px) {
+
+}
+/* TABLETS */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+}
+/* SMALL SCREENS / LAPTOPS */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    #homePage-title{
+        font-size: 28px;
+    }
+    #homePage-desc{
+        font-size: 17px;  
+    }
+}
+/* DESKTOPS / LARGE SCREENS */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+
+}
+/* EXTRA LARGE SCREENS / TV */
+@media only screen and (min-width: 1201px) {
+
+}
+
+

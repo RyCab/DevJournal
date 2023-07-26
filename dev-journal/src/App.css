@@ -6,9 +6,7 @@
   overflow-y: hidden;
   overflow-x: hidden;
   float: left;
-  background-image: url('./images/background.jpeg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: rgba(0,0,11,255);
   height:100vh;
   position: fixed;
 }
