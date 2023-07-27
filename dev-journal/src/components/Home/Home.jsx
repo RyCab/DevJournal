@@ -15,7 +15,7 @@ export const Home = () => {
       {/* <img id="homeImage" src={homeImage2}></img> */}
       <div className="homePage-content">
         <div className="home-con-left">
-          <h1 id="homePage-title">DEVELOP WITH DEVJOURNAL</h1>
+          <h1 id="homePage-title">DEVELOP WITH DEVJOURNAL!</h1>
           <p id='homePage-desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quo totam, non aliquam omnis reiciendis tenetur dolorum adipisci recusandae nulla blanditiis tempore fugit voluptatibus nam illo doloribus ex corporis delectus?</p>
           <div className="home-btn-con">
             <button id='homePage-btn'>CONTACT US</button>
