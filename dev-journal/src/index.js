@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { createRoot } from "react-dom/client";
 import "./index.css";
@@ -16,11 +16,16 @@ import AdminPage from "./pages/AdminPage";
 import { AuthProvider } from "./context/AuthContext";
 import HomePage from './pages/HomePage';
 import  TestingPage  from './pages/Testing';
+import ReactGA from "react-ga4";
+
 
 // Create root element
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 
+
+// GOOGLE ANALYTICS
+ReactGA.initialize("G-ZEC97HCXBM");
 root.render(
   <AuthProvider>
     <BrowserRouter>
@@ -28,7 +33,7 @@ root.render(
         <Route path="/" element={<App />}>
           <Route index element={<HomePage />} />
           {/* <Route path="/AboutUs" element={<AboutUs />} /> */}
-          <Route path="/AdminPanel" element={<AdminPage />} />
+          <Route path="/AdminPanel" element={<AdminPage/>} />
           <Route path="/adminUserEdit" element={<UserEdit />} />
           <Route path="/SignIn" element={<SignIn />} />
           <Route path="/SignUp" element={<SignUp />} />
@@ -41,8 +46,15 @@ root.render(
     </BrowserRouter>
   </AuthProvider>
 );
+// GOOGLE ANALYTICS
+const SendAnalytics = ()=> {
+  ReactGA.send({
+    hitType: "pageview",
+    page: window.location.pathname,
+  });
+}
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+reportWebVitals(SendAnalytics);

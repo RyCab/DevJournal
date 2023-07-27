@@ -8,6 +8,7 @@ import DrawOutlinedIcon from '@mui/icons-material/DrawOutlined';
 import { Footers } from "../Footers/Footers";
 import { Subscribe  } from "../Subscribe/Subscribe";
 
+
 export const Home = () => {
   return (
     <div className="homePage-con">
